@@ -3,95 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sabore's - Menú</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <title>Menú Sabore's - Comida Rápida</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Personalización de colores de Tailwind para un estilo naranja distintivo */
+        :root {
+            --color-primary: 255 102 0; /* RGB de un naranja vibrante */
+        }
+        .text-primary { color: rgb(var(--color-primary)); }
+        .bg-primary { background-color: rgb(var(--color-primary)); }
+        .border-primary { border-color: rgb(var(--color-primary)); }
+        .hover\:bg-primary-dark:hover { background-color: rgb(204 81 0); } /* Naranja un poco más oscuro */
+    </style>
 </head>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="logo">
-                <h1>SABORE'S</h1>
-                <p class="tagline">Comida rápida con sabor auténtico</p>
-            </div>
-            <div class="header-info">
-                <div class="price-update-info">
-                    <i class="fas fa-sync-alt"></i>
-                    <span>Precios actualizados vía JSON</span>
-                </div>
-                <button id="updatePricesBtn" class="btn-update">
-                    <i class="fas fa-redo"></i> Simular Actualización
-                </button>
-            </div>
+<body class="bg-gray-100 font-sans">
+
+    <header class="bg-primary text-white shadow-lg sticky top-0 z-10">
+        <div class="container mx-auto p-4 flex justify-between items-center">
+            <h1 id="logo" class="text-3xl font-bold tracking-wider">SABORE'S</h1>
+            <a href="#contacto" class="hidden sm:inline-block border-2 border-white rounded-full py-2 px-4 hover:bg-white hover:text-primary transition duration-300">
+                Contacto
+            </a>
         </div>
     </header>
 
-    <!-- Main Content -->
-    <main class="container">
-        <section class="hero">
-            <h2>NUESTRO MENÚ</h2>
-            <p>Disfruta de nuestros platos especiales preparados con los mejores ingredientes</p>
-        </section>
-
-        <!-- Menu Sections will be loaded here by JavaScript -->
-        <div id="menuContainer" class="menu-container">
-            <!-- Menu items will be dynamically inserted here -->
+    <main class="container mx-auto p-4 md:p-8">
+        <div class="text-center my-8">
+            <p class="text-lg text-gray-600">¡Tu menú digital! Pedidos al <span id="tel-header" class="font-semibold text-primary"></span></p>
         </div>
-
-        <!-- Extras Section -->
-        <section id="extrasSection" class="menu-section">
-            <h2 class="section-title"><i class="fas fa-plus-circle"></i> EXTRAS</h2>
-            <div class="menu-items" id="extrasItems">
-                <!-- Extras will be loaded here -->
-            </div>
-        </section>
-
-        <!-- Payment Methods -->
-        <section class="payment-section">
-            <h2 class="section-title"><i class="fas fa-credit-card"></i> MÉTODOS DE PAGO</h2>
-            <div class="payment-methods">
-                <div class="payment-method">
-                    <i class="fas fa-mobile-alt"></i>
-                    <span>PAGO MÓVIL</span>
-                </div>
-                <div class="payment-method">
-                    <i class="fas fa-wallet"></i>
-                    <span>MERID DIGITAL</span>
-                </div>
-                <div class="payment-method">
-                    <i class="fab fa-bitcoin"></i>
-                    <span>BINANCE</span>
-                </div>
-                <div class="payment-method">
-                    <i class="fas fa-money-bill-wave"></i>
-                    <span>ZELLE</span>
-                </div>
-            </div>
-        </section>
+        
+        <div id="menu-container" class="space-y-10">
+            <div class="text-center text-gray-500">Cargando menú...</div>
+        </div>
     </main>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <h3>SABORE'S</h3>
-                    <p>© 2024 Todos los derechos reservados</p>
-                </div>
-                <div class="footer-info">
-                    <p><i class="fas fa-info-circle"></i> Los precios se actualizan automáticamente desde el archivo JSON</p>
-                    <p class="json-status" id="jsonStatus">
-                        <i class="fas fa-check-circle"></i> Precios actualizados correctamente
-                    </p>
-                </div>
+    <footer id="contacto" class="bg-gray-800 text-white p-8 mt-12">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <div>
+                <h3 class="text-2xl font-bold text-primary mb-3" id="footer-logo">SABORE'S</h3>
+                <p class="text-gray-400">Síguenos en nuestras redes sociales:</p>
+                <p class="text-lg font-semibold" id="instagram-footer"></p>
+                            </div>
+
+            <div>
+                <h4 class="text-xl font-semibold mb-3">📞 Contáctanos</h4>
+                <p id="tel-footer" class="text-gray-400"></p>
+                <p class="text-gray-400 mt-2">📍 **Ubicación:**</p>
+                <p id="direccion-footer" class="text-gray-400"></p>
+                <p class="text-sm mt-4 text-primary font-medium">Ofrecemos servicio de ENVÍOS A DOMICILIO</p>
             </div>
+
+            <div>
+                <h4 class="text-xl font-semibold mb-3">💳 Métodos de Pago</h4>
+                <ul class="space-y-1 text-gray-400">
+                    <li>PAGO MOVIL</li>
+                    <li>BINANCE</li>
+                    <li>ZELLE</li>
+                </ul>
+                            </div>
+        </div>
+        <div class="text-center text-gray-500 mt-8 pt-4 border-t border-gray-700">
+            Menú Digital Sabore's. &copy; 2025.
         </div>
     </footer>
 
-    <!-- JavaScript Files -->
-    <script src="menu-data.js"></script>
     <script src="script.js"></script>
+
 </body>
 </html>
