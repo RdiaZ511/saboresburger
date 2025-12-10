@@ -1,0 +1,241 @@
+{
+  "logo_text": "SABORE'S",
+  "contacto": {
+    "telefono": "0424-4004421",
+    "direccion": "CALLE ROSCIO, RITEC VALENCIA, CARABOBO",
+    "instagram": "@SABORESS_BURGUER"
+  },
+  "menu": [
+    {
+      "categoria": "HAMBURGUESAS",
+      "productos": [
+        {
+          "nombre": "PURO PERNIL",
+          "precio": "5",
+          "descripcion": "PAN DE PAPA, PERNIL, QUESO KRAF, TOMATE, CEBOLLA, LECHUGA, SALSA BASICAS Y SALSA DE LA CASA"
+        },
+        {
+          "nombre": "LA JEFA",
+          "precio": "6",
+          "descripcion": "PAN DE PAPA, DOBLE CARNE SMASH, DOBLE QUESO KRAF, MERMELADA BACON, PEPINILLO, TOCINETA, QUESO CHEDDAR, SALSAS DE LA CASA"
+        },
+        {
+          "nombre": "LA COMANDANTE",
+          "precio": "6",
+          "descripcion": "PAN DE PAPA, DOBLE CARNE SMASH, DOBLE QUESO KRAF, PEPINILLO, TOCINETA, QUESO CHEDDAR, SALSAS DE LA CASA"
+        },
+        {
+          "nombre": "LA FULL SABOR",
+          "precio": "6",
+          "descripcion": "PAN DE PAPA, DOBLE CARNE SMASH, DOBLE QUESO KRAF, DID DE PARMESANO, PEPINILLO, TOCINETA, QUESO CHEDDAR, SALSAS DE LA CASA"
+        },
+        {
+          "nombre": "CARNE, POLLO O CHULETA",
+          "precio": "2,5 / 3,5",
+          "descripcion": "PAN, CEBOLLA, TOMATE, LECHUGA, PAPITAS, QUESO KRAF, POLLO, SALSAS BASICAS Y SALSA DE LA CASA"
+        },
+        {
+          "nombre": "SUPREMAS DE CARNE, POLLO O CHULETA",
+          "precio": "6",
+          "descripcion": "PAN, CEBOLLA, TOMATE, LECHUGA, PAPITAS, HUEVO, TOCINETA, MAIZ, QUESO KRAF, JAMON, CHULETA, SALSAS BASICAS Y SALSA DE LA CASA"
+        },
+        {
+          "nombre": "LA CRISPY",
+          "precio": "5",
+          "descripcion": "PAN DE PAPA, POLLO CRISPY, LECHUGA, PEPINILLO, TOCINETA, QUESO KRAF SALSAS BASICAS Y SALSA DE LA CASA"
+        }
+      ]
+    },
+    {
+      "categoria": "PERROS CALIENTES",
+      "productos": [
+        {
+          "nombre": "CLÁSICO",
+          "precio": "1,5",
+          "descripcion": "PAN DE PAPA, SALCHICHA TIPO WINNER, CEBOLLA, REPOLLO, PAPAS FRITAS, SALSAS BASICAS Y SALSA DE LA CASA (2x)"
+        },
+        {
+          "nombre": "ESPECIAL",
+          "precio": "2",
+          "descripcion": "PAN DE PAPA, SALCHICHA TIPO WINNER, CEBOLLA, REPOLLO, PAPAS FRITAS, MAIZ, QUESO AMARILLO, SALSAS BASICAS Y SALSA DE LA CASA"
+        },
+        {
+          "nombre": "EL CHEDDAR",
+          "precio": "2",
+          "descripcion": "PAN DE PAPA, SALCHICHA TIPO WINNER, CEBOLLA, REPOLLO, PAPAS FRITAS, QUESO FUNDIDO, TOCINETA, SALSAS BASICAS Y SALSA DE LA CASA"
+        }
+      ]
+    },
+    {
+      "categoria": "CLUB HOUSE",
+      "productos": [
+        {
+          "nombre": "CLÁSICO",
+          "precio": "6",
+          "descripcion": "PAN DE SANDWICH, LECHUGA, TOMATE, JAMON, QUESO AMARILLO, PAPAS RUSTICAS, HUEVO Y SALSAS BASICAS"
+        },
+        {
+          "nombre": "ESPECIAL",
+          "precio": "8",
+          "descripcion": "PAN DE SANDWICH, LECHUGA, TOMATE, JAMON, QUESO AMARILLO, PAPAS RUSTICAS, HUEVO, MILANESA DE POLLO Y SALSAS BASICAS"
+        },
+        {
+          "nombre": "SUPER ESPECIAL",
+          "precio": "8",
+          "descripcion": "PAN DE SANDWICH, LECHUGA, TOMATE, JAMON, QUESO AMARILLO, PAPAS RUSTICAS, HUEVO, CORONADO CON POLLO CRISPY Y SALSAS BASICAS"
+        }
+      ]
+    },
+    {
+      "categoria": "PAPAS",
+      "productos": [
+        { "nombre": "RACIÓN DE PAPAS", "precio": "2", "descripcion": "" },
+        { "nombre": "SALCHIPAPAS", "precio": "4", "descripcion": "" },
+        { "nombre": "PAPAS FRITAS CON CHORIZO", "precio": "4", "descripcion": "" },
+        { "nombre": "PAPAS FRITAS CON CERDO AL GRILL", "precio": "4", "descripcion": "" },
+        { "nombre": "PAPAS FRITAS QUESO CHEDDAR", "precio": "3", "descripcion": "" },
+        { "nombre": "PAPAS FRITAS QUESO CHEDDAR Y TOCINETA", "precio": "4", "descripcion": "" },
+        {
+          "nombre": "PAPAS AL HORNO",
+          "precio": "4",
+          "descripcion": "QUESO MOZZARELLA, QUESO CHEDDAR Y RELLENA CON CHURRASCO DE POLLO"
+        }
+      ]
+    },
+    {
+      "categoria": "ALITAS AL GRILL (BBQ, MOSTAZA MIEL, PARMESANO)",
+      "productos": [
+        {
+          "nombre": "BANDEJA #1 (6 PIEZAS)",
+          "precio": "7",
+          "descripcion": "PIEZAS DE ALITAS, PAPITAS FRITAS, TEQUEÑOS, ENSALADA, AREPITAS Y SALSAS BASICAS"
+        },
+        {
+          "nombre": "BANDEJA #2 (12 PIEZAS)",
+          "precio": "10",
+          "descripcion": "PIEZAS DE ALITAS, PAPITAS FRITAS, TEQUEÑOS, ENSALADA, AREPITAS Y SALSAS BASICAS"
+        },
+        {
+          "nombre": "BANDEJA #3 (18 PIEZAS)",
+          "precio": "15",
+          "descripcion": "PIEZAS DE ALITAS, PAPITAS FRITAS, TEQUEÑOS, ENSALADA, AREPITAS Y SALSAS BASICAS"
+        },
+        {
+          "nombre": "BANDEJA #4 (24 PIEZAS)",
+          "precio": "20",
+          "descripcion": "PIEZAS DE ALITAS, PAPITAS FRITAS, TEQUEÑOS, ENSALADA, AREPITAS Y SALSAS BASICAS"
+        }
+      ]
+    },
+    {
+      "categoria": "POLLO A LA BROASTER",
+      "productos": [
+        {
+          "nombre": "EL PRIMER BOX (3 PIEZAS)",
+          "precio": "4",
+          "descripcion": "PIEZAS DE POLLO A LA BROASTER, ENSALADA, PAPITAS FRITAS, AREPITA Y SALSAS BASICA"
+        },
+        {
+          "nombre": "EL SEGUNDO BOX (6 PIEZAS)",
+          "precio": "6",
+          "descripcion": "PIEZAS DE POLLO A LA BROASTER, ENSALADA, PAPITAS FRITAS, AREPITA Y SALSAS BASICAS"
+        },
+        {
+          "nombre": "EL TERCER BOX (12 PIEZAS)",
+          "precio": "12",
+          "descripcion": "PIEZA DE POLLO A LA BROASTER, ENSALADA, PAPITA FRITAS, AREPITA Y SALSAS BASICAS"
+        },
+        {
+          "nombre": "FAMILY BOX",
+          "precio": "20",
+          "descripcion": "PIEZAS DE POLLO A LA BROASTER, ENSALADA, PAPITAS FRITAS, AREPITA, TEQUEÑOS, TOSTONES Y SALSAS BASICAS"
+        }
+      ]
+    },
+    {
+      "categoria": "PARRILLAS",
+      "productos": [
+        {
+          "nombre": "TRADICIONAL PEQUEÑA",
+          "precio": "4",
+          "descripcion": "CARNE DE RES, POLLO, CERDO, CHORIZO, ENSALADA Y YUCA SANCOCHADA O PAPAS RUSTICAS"
+        },
+        {
+          "nombre": "TRADICIONAL MEDIANA",
+          "precio": "12",
+          "descripcion": "CARNE DE RES, POLLO, CERDO, CHORIZO, ENSALADA Y YUCA SANCOCHADA O PAPAS RUSTICAS"
+        },
+        {
+          "nombre": "TRADICIONAL GRANDE",
+          "precio": "15",
+          "descripcion": "CARNE DE RES, POLLO, CERDO, CHORIZO, ENSALADA Y YUCA SANCOCHADA O PAPAS RUSTICAS"
+        },
+        {
+          "nombre": "MEGA ESPECIAL MEDIANA",
+          "precio": "15",
+          "descripcion": "CARNE DE RES, POLLO, CERDO, CHORIZO, ENSALADA, YUCA FRITA O SANCOCHADA, PAPAS RUSTICAS, TOSTON, TEQUEÑOS Y SALSAS DE LA CASA"
+        },
+        {
+          "nombre": "MEGA ESPECIAL GRANDE",
+          "precio": "20",
+          "descripcion": "CARNE DE RES, POLLO, CERDO, CHORIZO, ENSALADA, YUCA FRITA O SANCOCHADA, PAPAS RUSTICAS, TOSTON, TEQUEÑOS Y SALSAS DE LA CASA"
+        }
+      ]
+    },
+    {
+      "categoria": "OTROS PLATOS",
+      "productos": [
+        {
+          "nombre": "EL GRANDE (PEPITOS)",
+          "precio": "12",
+          "descripcion": "PANCANILLA, TOMATE, CEBOLLA, LECHUGA, MAIZ, QUESO AMARILLO, PAPAS, JAMON, PROTEINA (POLLO-CARNE MIXTO), SALSA BASICA Y SALSAS DE LA CASA"
+        },
+        {
+          "nombre": "EL PEQUEÑO (PEPITOS)",
+          "precio": "6",
+          "descripcion": "MEDIA CANILLA, TOMATE, CEBOLLA, LECHUGA, MAIZ, QUESO AMARILLO, PAPAS, JAMON, PROTEINA (POLLO-CARNE MIXTO), SALSA BASICA Y SALSAS DE LA CASA"
+        },
+        { "nombre": "CHURRASCO DE POLLO", "precio": "4", "descripcion": "1 CHURRASCO DE POLLO, ENSALADA RUSA Y TOSTON" },
+        {
+          "nombre": "PORK BELLY",
+          "precio": "5",
+          "descripcion": "TOSTON, HALLAQUITAS DE CHICHARRON O YUCA Y ENSALADA"
+        },
+        { "nombre": "TENDERS DE POLLO", "precio": "4", "descripcion": "POLLO Y PAPAS FRITAS" },
+        {
+          "nombre": "EL BOX DE LA CASA",
+          "precio": "3",
+          "descripcion": "RACION DE CERDO AL GRILL CON HALLAQUITAS DE CHICHARRON"
+        }
+      ]
+    },
+    {
+      "categoria": "RACIONES Y EXTRAS",
+      "productos": [
+        { "nombre": "TEQUEÑOS", "precio": "3", "descripcion": "" },
+        { "nombre": "AREPITAS", "precio": "3", "descripcion": "" },
+        { "nombre": "TOSTONES", "precio": "3", "descripcion": "" },
+        { "nombre": "YUCA FRITA", "precio": "3", "descripcion": "" },
+        { "nombre": "YUCA SANCOCHADA", "precio": "3", "descripcion": "" },
+        { "nombre": "HALLAQUITAS", "precio": "3", "descripcion": "" },
+        { "nombre": "CHORIZO", "precio": "3", "descripcion": "" },
+        { "nombre": "TOCINETA", "precio": "0,50", "descripcion": "EXTRA" },
+        { "nombre": "MAÍZ", "precio": "0,50", "descripcion": "EXTRA" },
+        { "nombre": "QUESO KRAF", "precio": "0,50", "descripcion": "EXTRA" },
+        { "nombre": "MERMELADA BACON", "precio": "0,50", "descripcion": "EXTRA" },
+        { "nombre": "HUEVO", "precio": "0,50", "descripcion": "EXTRA" }
+      ]
+    },
+    {
+      "categoria": "BEBIDAS",
+      "productos": [
+        { "nombre": "REFRESCO 2 LITROS (Coca-Cola, Pepsi, Fanta, Sprite)", "precio": "2,5", "descripcion": "" },
+        { "nombre": "REFRESCO DE BOTELLA", "precio": "1", "descripcion": "" },
+        { "nombre": "NESTEA", "precio": "1", "descripcion": "" },
+        { "nombre": "MALTA", "precio": "1,5", "descripcion": "" },
+        { "nombre": "JUGOS ENVASADOS", "precio": "1,5", "descripcion": "" },
+        { "nombre": "AGUA", "precio": "1", "descripcion": "" }
+      ]
+    }
+  ]
+}
